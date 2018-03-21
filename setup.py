@@ -138,8 +138,8 @@ class GradleDistribution(Distribution, object):
             raise StopIteration
 
 setup(
-    distclass=GradleDistribution,
-    package_dir={'': 'src'},
-    packages=find_packages('src'),
-    include_package_data=True,
+   distclass=GradleDistribution,
+   package_dir={'': 'src'},
+   packages=find_packages('src'),
+   include_package_data=True,
 )
